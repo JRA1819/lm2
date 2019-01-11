@@ -1,0 +1,103 @@
+h1 {
+    color: #8B0000;
+    font-family: arial;
+}
+h2 {
+    color: #04008B;
+    font-family: arial;
+}
+
+h3 {
+    color: #00708B;
+    font-family: arial;
+}
+h4 {
+    color: #00308B;
+    font-family: arial;
+}
+p  {
+	background-color: #ffcc99;
+    font-family: arial;
+	font-size: 14px;
+	border-style: solid;
+    border-color: coral;
+}
+body{
+    background-color: #cccc00;
+    color: #0000Fb;
+    font-family: arial;
+	margin: 15px;
+	}
+logotipo {
+	color: #00008B;
+    font-family: arial;
+	font-size: 18px;
+	text-align: center;
+	border-style: solid;
+    border-color: coral;
+	padding-top: 40px;
+    padding-right: 45px;
+    padding-bottom: 24px;
+ }
+table, th, td {
+    border: 1px solid black;
+
+}
+div {
+    border: 5px solid black;
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+div id {
+    border: 5px solid black;
+    background-color: white;
+	text-align:center;
+	color : yellow;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 24px;
+}
+#barraaceptacion {
+    display:none;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:20px;
+    width:100%;
+    text-align:center;
+    min-height:40px;
+    background-color: #000000;
+    color:#fff;
+    z-index:99999;
+}
+/* creacion de la barra menu del proyecto */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
